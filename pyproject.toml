@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DNA-Serve"
+version = "1.0.0"
+description = "DNA serving system"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Kapil Dhinwa"}]
+
+[project.urls]
+Homepage = "https://github.com/kapildhinwa2010-dev/DNA-Serve"
+
+[tool.setuptools]
+packages = ["dna_serve"]
