@@ -1,11 +1,12 @@
 # DNA-Serve
 
+[![CI](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/ci.yml/badge.svg)](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/codeql.yml/badge.svg)](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/codeql.yml)
+
 Model registry and request envelopes (service layer).
 
 **Part of the [Kapildhinwa2010-dev Toolkit](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev).**
 
-![CI](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/ci.yml/badge.svg)
-![CodeQL](https://github.com/kapildhinwa2010-dev/DNA-Serve/actions/workflows/codeql.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
