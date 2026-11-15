@@ -66,10 +66,10 @@ class ServeRegistry:
 
     def get(self, name: str, version: str = "latest") -> ModelRecord:
         if version == "latest":
-            candidates = [r for (n, _) in self._models if n == name]
-            if not candidates:
+            versions = [v for ((n, v), _) in self._models.items() if n == name]
+            if not versions:
                 raise KeyError("unknown model: {}".format(name))
-            version = max(v for (n, v) in self._models if n == name)
+            version = max(versions)
         key = (name, version)
         if key not in self._models:
             raise KeyError("unknown model: {}@{}".format(name, version))
